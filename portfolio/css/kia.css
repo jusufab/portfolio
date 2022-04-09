@@ -1,0 +1,107 @@
+.kia {
+  position: relative;
+  width: 100%;
+  height: 600px;
+}
+.kia-h1 {
+  position: absolute;
+  top: 0%;
+  left: 27%;
+  font-size: 30px;
+}
+#kia-h4 {
+  position: absolute;
+  top: 20%;
+  left: 27%;
+  font-weight: 200;
+}
+
+.dot {
+  height: 25px;
+  width: 25px;
+  background-color: #e6410f;
+  border-radius: 50%;
+  display: inline-block;
+}
+.kia-content {
+  position: absolute;
+  left: 47%;
+  top: 7%;
+  width: 400px;
+  height: 200px;
+  line-height: 1.3em;
+  font-size: 24px;
+}
+.kia-content .btn {
+  width: 200px;
+  height: 40px;
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+  cursor: pointer;
+}
+.kia-content .btn:hover {
+  width: 250px;
+  color: #030303;
+  font-size: large;
+}
+.kia-content .btn .fa-solid {
+  color: #e6410f;
+  font-weight: 40px;
+}
+.kia-img {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+}
+.kia-img img {
+  width: 1000px;
+}
+@media screen and (max-width: 1000px) {
+  .kia-img img {
+    width: 300px;
+    
+  }
+  .kia-content {
+    display: block;
+    position: absolute;
+    left: 12%;
+    top: 7%;
+    width: 300px;
+    height: 200px;
+    line-height: 1.3em;
+    font-size: 24px;
+  }
+  .kia-h1 {
+    display: block;
+    position: absolute;
+    top: -30%;
+  }
+  #kia-h4 { 
+    display: block;
+    position: absolute;
+    top: -10%;
+    right: 5%;
+  }
+  .kia-img {
+    position: absolute;
+    top: 50%;
+    left: 7%;
+  }
+  .agriculture-h1{
+    display: block;
+    position: absolute;
+    top: -37%;
+    left: 12%;
+  }
+  .container2{
+    width: 300px;
+  }
+  .left{
+    width: 200px;
+
+  }
+  .right{
+    width: 200px;
+  }
+
+}
